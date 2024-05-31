@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="container">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,6 +22,8 @@ function App() {
           dictionary
         </button>
       </header>
+      <footer> Coded by K. Vanessa Iwen </footer>
+    </div>
     </div>
   );
 }
