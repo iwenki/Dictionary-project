@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
@@ -22,7 +23,10 @@ function App() {
           dictionary
         </button>
       </header>
-      <footer> Coded by K. Vanessa Iwen </footer>
+      <main>
+        <Dictionary/>
+      </main>
+      <footer className="App-footer"> Coded by K. Vanessa Iwen </footer>
     </div>
     </div>
   );

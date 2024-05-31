@@ -15,17 +15,19 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  min-height: 50vh;
+  margin: 5px 0;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 40px;
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+.App-footer{
+  text-align:center;
+  margin: 10px;
 }
 
 @keyframes App-logo-spin {
