@@ -9,9 +9,6 @@ function App() {
         <p>
         Dictionary Book
         </p>
-        <button type="button" class="btn btn-primary">
-          dictionary
-        </button>
       </header>
       <main>
         <Dictionary/>
